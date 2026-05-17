@@ -43,8 +43,9 @@ def ask_ai(question, context):
     url = "https://openrouter.ai/api/v1/chat/completions"
 
     headers = {
-        "Authorization": "Bearer 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"
-,
+        "Authorization": 
+        "Bearer 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",
+
         "Content-Type": "application/json"
     }
 
